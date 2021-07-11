@@ -1,0 +1,174 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	list-style:none;
+	text-decoration: none;
+}
+
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/font/Cocogoose.ttf);
+  
+}
+
+@font-face {
+  font-family: mySecondFont;
+  src: url(/font/megante.ttf);
+  
+}
+
+@font-face {
+  font-family: myThirdFont;
+  src: url(/font/Coolvetica.ttf);
+  
+}
+
+body{
+	font-family: myFirstFont;
+	
+}
+
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+
+.navbar{
+	width: 100%;
+	height: 50px;
+	display: block;
+	background-color: #FFFFFF
+}
+
+.navbar-brand img{
+	height: 40px;
+	padding-left: 20px;
+}
+
+.navbar-nav li{
+	display: inline-block;
+}
+
+.navbar-nav li a{
+	text-decoration: none;
+	font-family: mySecondFont;
+	color: #000000 !important;
+	font-size: 15px;
+}
+
+.banner{
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/image/Banner.png);
+	height: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+#header{
+	background : #fff;
+	height : 50px;
+}
+
+.about{
+	padding: 5% 10%;
+	text-align: center;
+}
+.services{
+	padding: 5% 10%;
+	text-align: center;
+}
+.contactus{
+	padding: 5% 10%;
+	text-align: center;
+}
+.reviews{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+
+h1.title{
+	margin-bottom: 20px;
+	color: #000;
+	font-family: mySecondFont;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align: center;
+	font-weight: 1000;
+}
+
+p{
+	margin-bottom: 15px;
+	font-size: 14px;
+	font-family: myFirstFont;
+	line-height: 20px;
+	color: #000;
+}
+
+.services{
+	background: #f5f5f5;
+}	
+
+.diff_services{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.diff_services_item{
+	width: 30%;
+}
+
+.diff_services_item img{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.diff_services_item h3{
+	color: #000;
+	margin-bottom: 15px;
+}	
+
+
+.form_input{
+	margin-bottom: 15px;
+}
+
+.form_input input[type="text"]{
+	width: 250px;
+	padding: 12px 20px;
+	border: 1px solid #ccc;
+}
+
+.form_input textarea{
+	
+	padding: 12px 20px;
+	height: 80px;
+	resize: none;
+	border: 1px solid #ccc;
+}
+
+.reviews{
+	background: #fff;
+}	
+
+.contactus{
+	background: #f5f5f5;
+}
+
+.footer p{
+		padding: 1px;
+		text-align: center;
+		background: #ffff;
+		position: relative;
+		font-family: serif-sans
+}		
+				
+		
